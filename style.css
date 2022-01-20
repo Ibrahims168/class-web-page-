@@ -1,0 +1,27 @@
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+.header{
+    height: 10vh;
+}
+.nav-wrapper{
+    height: 10vh;
+    width: 100vw;
+}
+.card-image{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center;
+    justify-items: center;
+}
+.subContainer{
+      height: 90vh;
+      width: 100vw;
+}
